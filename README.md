@@ -10,7 +10,7 @@ This project is an IoT-based water flow monitoring and control system powered by
 - **Pump Current Monitoring**: Measures pump current using an ACS712-30 shunt sensor to ensure accurate status readings.
 - **Pump Control**: Controls the water pump via an SRD-05VDC-SL-C relay with full control accessible through Home Assistant.
 - **Dry-Run Protection**: Detects dry running of the pump and automatically shuts it down to prevent damage.
-- **Home Assistant Auto-Integration**: Automatically registers the device, including sensors and control buttons, with Home Assistant.
+- **Home Assistant Auto-Integration**: Automatically registers the device via MQTT Discovery messages, including sensors and control buttons, with Home Assistant.
 - **Over-the-Air (OTA) Firmware Updates**: Supports seamless firmware updates over Wi-Fi.
 
 ## Components
@@ -39,7 +39,7 @@ This project is an IoT-based water flow monitoring and control system powered by
    - Install additional library to work with the shunt sensor — https://github.com/RobTillaart/ACS712/
    - Install additional library for timer tickers — https://github.com/natnqweb/Simpletimer
    - Flash the ESP8266 with the provided firmware using the Arduino IDE or similar tools.
-   - Configure the firmware for Wi-Fi and Home Assistant integration.
+   - Configure the firmware for Wi-Fi and Home Assistant integration (MQTT Broker IP-address and username/password).
 
 3. **Home Assistant Integration**:
 
