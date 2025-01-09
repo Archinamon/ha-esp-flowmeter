@@ -35,6 +35,7 @@ This project is an IoT-based water flow monitoring and control system powered by
 2. **Firmware Installation**:
 
    - Install additional library to work with the shunt sensor — https://github.com/RobTillaart/ACS712/
+   - Install additional library for timer tickers — https://github.com/natnqweb/Simpletimer
    - Flash the ESP8266 with the provided firmware using the Arduino IDE or similar tools.
    - Configure the firmware for Wi-Fi and Home Assistant integration.
 
