@@ -27,8 +27,8 @@
 #define RELAY_CLOSED 0
 
 // Wi-Fi settings
-const char* ssid     = "ARKHIOTIKA";
-const char* password = "15526000";
+const char* ssid     = "Your_SSID";
+const char* password = "Your_passwrd";
 
 // MQTT settings
 const int   mqtt_json_buffer_size = 1024;                   // Extended buffer for mostly all of json's
