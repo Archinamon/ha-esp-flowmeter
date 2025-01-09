@@ -85,7 +85,7 @@ WiFiClient espClient;
 PubSubClient mqttClient(espClient);
 
 // OTA updates http-server
-ESP8266WebServer httpServer(1488);
+ESP8266WebServer httpServer(88);
 ESP8266HTTPUpdateServer httpUpdater;
 
 // Current flowmeter state
