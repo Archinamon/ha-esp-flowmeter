@@ -24,6 +24,8 @@ This project is an IoT-based water flow monitoring and control system powered by
 
 ## Installation and Setup
 
+![principal diagram](flowmeter_circuit_scheme.png)
+
 1. **Hardware Assembly**:
 
    - Connect the FL-408 sensor to the ESP8266 for water flow readings.
