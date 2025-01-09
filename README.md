@@ -49,6 +49,8 @@ This project is an IoT-based water flow monitoring and control system powered by
 4. **OTA Updates**:
 
    - Use the built-in OTA feature to update firmware without physical access.
+   - Access <ip-address_of_devices>:88/firmware to upload the firmware updates.
+   - Access <ip-address_of_devices>:88/restart to reboot the device remotely.
 
 ## Usage
 
